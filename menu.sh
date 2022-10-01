@@ -115,7 +115,7 @@ echo -e "\e[36m╒════════════════════�
 echo -e " \E[0;41;36m               Settings MENU                                      \E[0m"
 echo -e "\e[36m╘════════════════════════════════════════════╛\033[0m"
  [\033[1;36m14\033[0m] Setting Menu [${GREEN}Pro${NC}] [\033[1;36m21\033[0m] Cek Pkt bulanan
- [\033[1;36m15\033[0m] Gen SSL            [\033[1;36m21\033[0m] Cek Pkt \033[1;33mHarian${NC}
+ [\033[1;36m15\033[0m] Gen SSL            [\033[1;36m22\033[0m] Cek Pkt \033[1;33mHarian${NC}
  [\033[1;36m16\033[0m] Cek Status ${GREEN}RUNNING${NC}
  [\033[1;36m17\033[0m] Reboot VPS ${GREEN}X-Ray${NC}
  [\033[1;36m18\033[0m] Restart VPS${NC}
@@ -125,7 +125,6 @@ echo ""
 if [[ $(cat /opt/.ver) = $serverV ]] > /dev/null 2>&1; then
 echo -ne
 else
-#echo -e "[\033[1;32m999\033[0m] • \033[0;31mUpdate Available ! Go choice 69 to update\033[0m"
 echo ""
 fi
 echo -e "\033[1;37mPress [ Ctrl+C ] • To-Exit-Script\033[0m"
