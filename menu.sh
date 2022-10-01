@@ -143,7 +143,7 @@ touch /home/needupdate > /dev/null 2>&1
 echo -e "\033[0;33mVersion : $(cat /opt/.ver) Update available to $serverV\e[0m"
 echo -e "\e[36m╒═════════════════════════════════════════════╕\033[0m"
 echo ""
-echo -e "[ \033[0;31mChangelog\033[0m ]"
+echo -e "[ \033[0;31mAUTO SCRIPT BY JOYSMARK\033[0m ]"
 curl -sS https://raw.githubusercontent.com/Mjoyvpn/KIBO/main/clgshow
 echo -e "
 "
