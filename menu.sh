@@ -94,9 +94,9 @@ IPVPS=$(curl -s ipinfo.io/ip )
 serverV=$( curl -sS https://raw.githubusercontent.com/Mjoyvpn/KIBO/main/versi)
 
 if [ "$cekup" = "day" ]; then
-echo    -e   "System Uptime   :  $uphours $upminutes $uptimecek"
+echo -e "System Uptime   :  $uphours $upminutes $uptimecek"
 else
-echo -e   "System Uptime   :  $uphours $upminutes"
+echo -e "System Uptime   :  $uphours $upminutes"
 fi
 echo -e "Use Core        :  $rekk"
 echo -e "Current Domain  :  $(cat /etc/$bec/domain)"
@@ -121,7 +121,7 @@ echo -e "\e[36m╘════════════════════�
  [\033[1;36m18\033[0m] Restart VPS${NC}
  [\033[1;36m19\033[0m] ${RED}SEtting Pasword VPS${NC}
  [\033[1;36m20\033[0m] ${BLUE}SEtting Auto Reboot${NC}
-echo-e ""
+echo ""
 if [[ $(cat /opt/.ver) = $serverV ]] > /dev/null 2>&1; then
 echo -ne
 else
@@ -139,7 +139,7 @@ echo -e ""
 echo -e "\e[36m╒═════════════════════════════════════════════╕\033[0m"
 echo -e "           AUTO SCRIPT BY JOYSMARK                                               \E[0m"
 echo -e "\e[36m╘═════════════════════════════════════════════╛\033[0m"
-echo
+echo ""
 echo -ne "Select menu : "; read x
 if [[ $(cat /opt/.ver) = $serverV ]] > /dev/null 2>&1; then
     if [[ $x -eq 1 ]]; then
