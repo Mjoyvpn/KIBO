@@ -130,18 +130,14 @@ echo ""
 fi
 echo -e "\033[1;37mPress [ Ctrl+C ] • To-Exit-Script\033[0m"
 echo ""
-#echo -e "\e[36m╘════════════════════════════════════════════════════╛\033[0m"
 echo -e "\e[36m╒═════════════════════════════════════════════╕\033[0m"
 if [[ $(cat /opt/.ver) = $serverV ]] > /dev/null 2>&1; then
 echo -e "Client Name   : $Name"
 echo -e "Expiry script : LIFETIME"
-else
+echo -e "\e[36m╘═════════════════════════════════════════════╕\033[0m"
+echo -e ""
 echo -e "\e[36m╒═════════════════════════════════════════════╕\033[0m"
-echo ""
-echo -e "[ \033[0;31mChangelog\033[0m ]"
-echo -e "
-"
-fi
+echo -e "           AUTO SCRIPT BY JOYSMARK                                               \E[0m"
 echo -e "\e[36m╘═════════════════════════════════════════════╛\033[0m"
 echo
 echo -ne "Select menu : "; read x
