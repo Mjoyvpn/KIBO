@@ -110,7 +110,7 @@ echo -e "\e[36m╘════════════════════�
  [\033[1;36m04\033[0m] Del User SSH   [\033[1;36m10\033[0m] Add Sdosok Account
  [\033[1;36m05\033[0m] Renew SSH      [\033[1;36m11\033[0m] Cek User Xray
  [\033[1;36m06\033[0m] Member         [\033[1;36m12\033[0m] Del User Xray
- ${GREEN}Script by joysmark\033[0m [\033[1;36m13\033[0m] Renew User Xray
+                                      [\033[1;36m13\033[0m] Renew User Xray
 echo -e "\e[36m╒════════════════════════════════════════════╕\033[0m"
 echo -e " \E[0;41;36m               Settings MENU                                      \E[0m"
 echo -e "\e[36m╘════════════════════════════════════════════╛\033[0m"
@@ -118,7 +118,7 @@ echo -e "\e[36m╘════════════════════�
  [\033[1;36m15\033[0m] Gen SSL            [\033[1;36m21\033[0m] Cek Pkt \033[1;33mHarian${NC}
  [\033[1;36m16\033[0m] Cek Status ${GREEN}RUNNING${NC}
  [\033[1;36m17\033[0m] Reboot VPS ${GREEN}X-Ray${NC}
- [\033[1;36m18\033[0m] Restart VPS"
+ [\033[1;36m18\033[0m] Restart VPS${NC}
  [\033[1;36m19\033[0m] ${RED}SEtting Pasword VPS${NC}
  [\033[1;36m20\033[0m] ${BLUE}SEtting Auto Reboot${NC}
 echo-e ""
