@@ -80,7 +80,7 @@ Exp=$(curl -sS https://raw.githubusercontent.com/Mjoyvpn/DAFTAR/main/main/allow 
 fi
 clear
 echo -e "${CYAN}╒━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╕\033[0m${NC}"
-echo -e " \E[0;41;36m     ⇱ AutoScript By bahenol Project ⇲      \E[0m"
+echo -e " \E[0;41;36m     ⇱ AutoScript By JoySmark Project ⇲      \E[0m"
 echo -e "${CYAN}╘━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╛\033[0m${NC}"
 echo -e "   \e[36m[ SSH WebSocket : ${GREEN}ON${NC}\e[36m ]     [ XRAY : ${GREEN}ON${NC}\e[36m ] \033[0m"
 echo -e "\e[36m╒════════════════════════════════════════════╕\033[0m"
@@ -104,14 +104,14 @@ echo -e "IP-VPS          :  $IPVPS"
 echo -e "\e[36m╒════════════════════════════════════════════╕\033[0m"
 echo -e " \E[0;41;36m                 PANEL MENU                 \E[0m"
 echo -e "\e[36m╘════════════════════════════════════════════╛\033[0m"
-echo -e " [\033[1;36m01\033[0m] Add User SSH   [\033[1;36m07\033[0m]  Add Vmess Account
+echo -e " [\033[1;36m01\033[0m] Add User SSH   [\033[1;36m07\033[0m] Add Vmess Account
  [\033[1;36m02\033[0m] SSH WS Enable  [\033[1;36m08\033[0m] Add Vless Account
  [\033[1;36m03\033[0m] Cek User SSH   [\033[1;36m09\033[0m] Add Trojan Account
  [\033[1;36m04\033[0m] Del User SSH   [\033[1;36m10\033[0m] Add Sdosok Account
  [\033[1;36m05\033[0m] Renew SSH      [\033[1;36m11\033[0m] Cek User Xray
  [\033[1;36m06\033[0m] Member         [\033[1;36m12\033[0m] Del User Xray
- ${GREEN}Script ARTA MAULANA\033[0m [\033[1;36m13\033[0m] Renew User Xray"
-echo -e  "\e[36m╒════════════════════════════════════════════╕\033[0m"
+ ${GREEN}SCRIPY BY JOYSMARJ\033[0m [\033[1;36m13\033[0m] Renew User Xray"
+echo -e "\e[36m╒════════════════════════════════════════════╕\033[0m"
 echo -e " \E[0;41;36m               Settings MENU                \E[0m"
 echo -e "\e[36m╘════════════════════════════════════════════╛\033[0m
  [\033[1;36m14\033[0m] Setting Menu [${GREEN}Pro${NC}] [\033[1;36m21\033[0m] Cek Pkt bulanan
