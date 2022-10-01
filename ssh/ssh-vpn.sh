@@ -311,10 +311,6 @@ wget -O addtrojan "https://raw.githubusercontent.com/Mjoyvpn/KIBO/main/trojan/ad
 wget -O cektrojan "https://raw.githubusercontent.com/Mjoyvpn/KIBO/main/trojan/cektrojan.sh"
 wget -O deltrojan "https://raw.githubusercontent.com/Mjoyvpn/KIBO/main/trojan/deltrojan.sh"
 wget -O renewtrojan "https://raw.githubusercontent.com/Mjoyvpn/KIBO/main/trojan/renewtrojan.sh"
-#wget -O addtrgo "https://raw.githubusercontent.com/Mjoyvpn/KIBO/main/trojango/addtrgo.sh"
-#wget -O cektrgo "https://raw.githubusercontent.com/Mjoyvpn/KIBO/main/trojango/cektrgo.sh"
-#wget -O deltrgo "https://raw.githubusercontent.com/Mjoyvpn/KIBO/main/trojango/deltrgo.sh"
-#wget -O renewtrgo "https://raw.githubusercontent.com/Mjoyvpn/KIBO/main/trojango/renewtrgo.sh"
 wget -O add-tr "https://raw.githubusercontent.com/Mjoyvpn/KIBO/main/trojanws/add-tr.sh"
 wget -O cek-tr "https://raw.githubusercontent.com/Mjoyvpn/KIBO/main/trojanws/cek-tr.sh"
 wget -O del-tr "https://raw.githubusercontent.com/Mjoyvpn/KIBO/main/trojanws/del-tr.sh"
@@ -365,10 +361,6 @@ chmod +x addtrojan
 chmod +x cektrojan
 chmod +x deltrojan
 chmod +x renewtrojan
-chmod +x addtrgo
-chmod +x cektrgo
-chmod +x deltrgo
-chmod +x renewtrgo
 chmod +x add-tr
 chmod +x cek-tr
 chmod +x del-tr
