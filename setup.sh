@@ -230,7 +230,6 @@ echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━�
 sleep 2
 clear
 wget https://raw.githubusercontent.com/Mjoyvpn/KIBO/main/ssh/ssh-vpn.sh && chmod +x ssh-vpn.sh && screen -S ssh-vpn ./ssh-vpn.sh
-wget https://raw.githubusercontent.com/Mjoyvpn/KIBO/main/sstp/sstp.sh && chmod +x sstp.sh && screen -S sstp ./sstp.sh
 wget https://raw.githubusercontent.com/Mjoyvpn/KIBO/main/shadowsocks/ss.sh && chmod +x sstp.sh && screen -S ss ./ss.sh
 #Instal Xray
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
