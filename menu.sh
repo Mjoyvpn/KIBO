@@ -43,7 +43,7 @@ Name=$( curl -sS https://raw.githubusercontent.com/kenDevXD/src/main/name )
 # =========================================
 echo -e ""
 echo -e "\e[36m╒━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╕\033[0m"
-echo -e " \E[44;1;39m        ⇱ AutoScript By KennXV Project ⇲        \E[0m"
+echo -e " \E[44;1;39m        ⇱ AutoScript By JoySmark Project ⇲        \E[0m"
 echo -e " \E[44;1;39m            ⇱ Informasi VPS SERVER ⇲            \E[0m"
 echo -e "\e[36m╘━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╛\033[0m"
 echo -e " ⚙️ Cpu Model       : $cname"          
